@@ -234,10 +234,3 @@ ALTER TABLE `account`
 ```
 
 That is it ! If you want, you may remove the bambi protection from the exile settings, You can also remove the respect gained from trading. Lastly, You will also need to modify base upgrade to use pop tabs instead of respect.
-
-Roadmap
-=============
-* Infistar Tutorial on Humanity Tools
-* Humanity Based Loadouts
-* Humanity Change for AI Kills
-* Remove Respect Based Flags
