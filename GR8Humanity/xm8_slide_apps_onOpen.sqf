@@ -14,7 +14,7 @@ Modified By GR8
 GR8's Humanity System v1.0
 
 */
-private["_display","_health","_popTabsValue","_popTabs","_humanityValue","_respect"];
+private["_display","_health","_popTabsValue","_popTabs","_humanityValue","_humanity"];
 disableSerialization;
 _display = uiNameSpace getVariable ["RscExileXM8", displayNull];
 _health = _display displayCtrl 4057;
@@ -32,6 +32,6 @@ if (_humanityValue > 999) then
 {
 	_humanityValue = format ["%1k", floor (_humanityValue / 1000)];
 };
-_respect = _display displayCtrl 4059;
-_respect ctrlSetTooltip format["%1", ExileClientPlayerScore];
-_respect ctrlSetStructuredText parseText (format ["<t color='#00b2cd' font='OrbitronLight' size='1.6' valign='middle' align='center' shadow='0'><br/><br/><br/><t font='OrbitronMedium' size='3.5' color='#ffffff'>%1</t><br/>HUMANITY</t>", _humanityValue]);
+_humanity = _display displayCtrl 4059;
+_humanity ctrlSetTooltip format["%1", ExileClientPlayerHumanity];
+_humanity ctrlSetStructuredText parseText (format ["<t color='#00b2cd' font='OrbitronLight' size='1.6' valign='middle' align='center' shadow='0'><br/><br/><br/><t font='OrbitronMedium' size='3.5' color='#ffffff'>%1</t><br/>HUMANITY</t>", _humanityValue]);
