@@ -5,6 +5,11 @@ Dayz Style Humanity System is coming to ExileMod ! This script was made to repla
 
 This System runs alongside the respect system and does not replace it. However, If you like, you can disable respect completely.
 
+Screenshots
+--------------------------
+![Screenshot1](http://i.imgur.com/2YMCOAX.jpg)
+Missing screenshot of kill message (if anyone can supply, that would be gr8 :D )
+
 Installation
 --------------------------
 
