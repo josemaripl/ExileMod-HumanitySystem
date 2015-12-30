@@ -28,10 +28,25 @@ _popTabs = _display displayCtrl 4058;
 _popTabs ctrlSetTooltip format["%1", ExileClientPlayerMoney];
 _popTabs ctrlSetStructuredText parseText (format ["<t color='#00b2cd' font='OrbitronLight' size='1.6' valign='middle' align='center' shadow='0'><br/><br/><br/><t font='OrbitronMedium' size='3.5' color='#ffffff'>%1</t><br/>POP TABS</t>", _popTabsValue]);
 _humanityValue = ExileClientPlayerHumanity;
+switch (true) do 
+{   
+    case (_humanityValue < -5000):
+    {
+		_humanityColor = "#D62240";
+	};
+	case (_humanityValue > 5000):
+    {
+		_humanityColor = "#23BAA1";
+    };
+	default
+    {	
+		_humanityColor = "#00b2cd";
+	};
+};
 if (_humanityValue > 999) then
 {
 	_humanityValue = format ["%1k", floor (_humanityValue / 1000)];
 };
 _humanity = _display displayCtrl 4059;
 _humanity ctrlSetTooltip format["%1", ExileClientPlayerHumanity];
-_humanity ctrlSetStructuredText parseText (format ["<t color='#00b2cd' font='OrbitronLight' size='1.6' valign='middle' align='center' shadow='0'><br/><br/><br/><t font='OrbitronMedium' size='3.5' color='#ffffff'>%1</t><br/>HUMANITY</t>", _humanityValue]);
+_humanity ctrlSetStructuredText parseText (format ["<t color='%2' font='OrbitronLight' size='1.6' valign='middle' align='center' shadow='0'><br/><br/><br/><t font='OrbitronMedium' size='3.5' color='#ffffff'>%1</t><br/>HUMANITY</t>", _humanityValue,_humanityColor]);
