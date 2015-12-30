@@ -14,7 +14,7 @@ Modified By GR8
 GR8's Humanity System v1.0
 
 */
-private["_display","_health","_popTabsValue","_popTabs","_humanityValue","_humanity"];
+private["_display","_health","_popTabsValue","_popTabs","_humanityValue","_humanity","_humanityColor"];
 disableSerialization;
 _display = uiNameSpace getVariable ["RscExileXM8", displayNull];
 _health = _display displayCtrl 4057;
