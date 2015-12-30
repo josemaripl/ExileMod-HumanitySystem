@@ -58,16 +58,16 @@ class CfgExileCustomCode
 		 */
 		class Frags
 		{
-			SurvivorXSurvivor = 250; // Survivor Kills a Survivor
-			SurvivorXHero = -250; // Survivor kills a Hero
-			SurvivorXBandit = 1000; // Survivor Kills a Bandit
+			SurvivorXSurvivor = -250; // Survivor Kills a Survivor
+			SurvivorXHero = -500; // Survivor kills a Hero
+			SurvivorXBandit = 500; // Survivor Kills a Bandit
 
-			HeroXSurvivor = 750; // Hero Kills a Survivor
-			HeroXHero = -250; // Hero kills a Hero
-			HeroXBandit = 2000; // Hero Kills a Bandit
+			HeroXSurvivor = -750; // Hero Kills a Survivor
+			HeroXHero = -500; // Hero kills a Hero
+			HeroXBandit = 1000; // Hero Kills a Bandit
 
-			BanditXSurvivor = 250; // Bandit Kills a Survivor
-			BanditXHero = -150; // Bandit kills a Hero
+			BanditXSurvivor = -250; // Bandit Kills a Survivor
+			BanditXHero = -1000; // Bandit kills a Hero
 			BanditXBandit = 500; // Bandit Kills a Bandit
 		};
 	};
