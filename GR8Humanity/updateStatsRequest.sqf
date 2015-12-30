@@ -34,5 +34,5 @@ switch (true) do
 	};
 };
 
-ExileClientPlayerKills = _this select 2;
-ExileClientPlayerDeaths = _this select 3;
+ExileClientPlayerKills = _this select 3;
+ExileClientPlayerDeaths = _this select 4;

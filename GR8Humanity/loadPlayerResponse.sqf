@@ -21,12 +21,12 @@ _this spawn
 	_moneyString = _this select 1;
 	_scoreString = _this select 2;
 	_humanityString = _this select 3;
-	_kills = _this select 3;
-	_deaths = _this select 4;
-	_hunger = _this select 5;
-	_thirst = _this select 6;
-	_alcohol = _this select 7;
-	_clanName = _this select 8;
+	_kills = _this select 4;
+	_deaths = _this select 5;
+	_hunger = _this select 6;
+	_thirst = _this select 7;
+	_alcohol = _this select 8;
+	_clanName = _this select 9;
 	uiSleep 3;
 	_player = objectFromNetId _playerNetID;
 	[_player, _hunger, _thirst, _alcohol] call ExileClient_object_player_respawn;

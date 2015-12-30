@@ -17,7 +17,7 @@ GR8's Humanity System v1.0
 private["_player","_chuteNetID","_spawnType","_chute","_corpseGroup"];
 _player = _this select 0;
 _chuteNetID = _this select 1;
-_spawnType = _this select 11;
+_spawnType = _this select 12;
 if !(_chuteNetID isEqualTo "") then
 {
 	_chute = objectFromNetId _chuteNetID;
@@ -47,9 +47,9 @@ switch (true) do
 	};
 };
 
-ExileClientPlayerKills = _this select 4;
-ExileClientPlayerDeaths = _this select 5;
-ExileClientClanName = _this select 10;
+ExileClientPlayerKills = _this select 5;
+ExileClientPlayerDeaths = _this select 6;
+ExileClientClanName = _this select 11;
 if !(ExileClientPartyID isEqualTo -1) then
 {
 	if !(isNull ExileClientLastDiedPlayerObject) then
@@ -59,5 +59,5 @@ if !(ExileClientPartyID isEqualTo -1) then
 	};
 	[player] joinSilent (groupFromNetId ExileClientPartyID);
 };
-(_this select 9) call ExileClient_object_player_bambiStateBegin;
+(_this select 10) call ExileClient_object_player_bambiStateBegin;
 true
