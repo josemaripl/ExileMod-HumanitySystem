@@ -29,7 +29,7 @@ class CfgClans
 class CfgExileCustomCode 
 {
 ```
-* Replace it with:
+* Add this Below:
 ```
 // GR8's Humanity System
 #include "GR8Humanity\cfg\CfgExileCustomCode.hpp"
