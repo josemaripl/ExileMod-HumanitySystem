@@ -32,7 +32,7 @@ _this spawn
 	[_player, _hunger, _thirst, _alcohol] call ExileClient_object_player_respawn;
 	ExileClientPlayerMoney = parseNumber _moneyString;
 	ExileClientPlayerScore = parseNumber _scoreString;
-	ExileClientPlayerHumanity = parseNumber _humanityString;\
+	ExileClientPlayerHumanity = parseNumber _humanityString;
 
 	switch (true) do 
 	{   
