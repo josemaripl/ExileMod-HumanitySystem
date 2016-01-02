@@ -11,7 +11,7 @@
  /*
 
 Modified By GR8
-GR8's Humanity System v1.0
+GR8's Humanity System v1.2
 
 */
 ExileClientPlayerMoney = parseNumber (_this select 0);

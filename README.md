@@ -114,6 +114,13 @@ class Exile_Trader_CommunityCustoms
 			BanditXHero = -1000; // Bandit kills a Hero
 			BanditXBandit = 500; // Bandit Kills a Bandit
 		};
+		class Handcuffs 
+		{
+			trapping = -50;					// A handcuffs B
+			breakingFree = 100; 			// B broke free
+			releasedByHero = 100; 			// C releases B
+			releasedByHostageTaker = 50; 	// A releases B	
+		};
 	};
 ```
 * Open your **@ExileServer\extDB\sql_custom_v2\exile.ini**

@@ -11,7 +11,7 @@
  /*
 
 Modified By GR8
-GR8's Humanity System v1.0
+GR8's Humanity System v1.2
 
 */
 private["_payload","_messageName","_messageParameters","_allowedParameters","_moduleName","_functionName","_functionCode","_message"];

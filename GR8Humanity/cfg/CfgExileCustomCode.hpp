@@ -1,7 +1,7 @@
 /*
 
 Made By GR8
-GR8's Humanity System v1.0
+GR8's Humanity System v1.2
 
 */
 ExileServer_object_player_createBambi 								= "GR8Humanity\createBambi.sqf";
@@ -15,4 +15,7 @@ ExileClient_object_player_network_loadPlayerResponse 				= "GR8Humanity\loadPlay
 ExileClient_object_player_network_createPlayerResponse 				= "GR8Humanity\createPlayerResponse.sqf";
 ExileClient_gui_xm8_slide_apps_onOpen 								= "GR8Humanity\xm8_slide_apps_onOpen.sqf";
 ExileClient_gui_traderDialog_event_onStoreListBoxSelectionChanged 	= "GR8Humanity\onStoreListBoxSelectionChanged.sqf";
+ExileServer_object_handcuffs_network_breakFreeRequest 				= "GR8Humanity\breakFreeRequest.sqf";
+ExileServer_object_handcuffs_network_freeRequest 					= "GR8Humanity\freeRequest.sqf";
+ExileServer_object_handcuffs_network_handcuffRequest 				= "GR8Humanity\handcuffRequest.sqf";
 // BY GR8

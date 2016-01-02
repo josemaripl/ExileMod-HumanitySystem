@@ -11,7 +11,7 @@
  /*
 
 Modified By GR8
-GR8's Humanity System v1.0
+GR8's Humanity System v1.2
 
 */
 private["_victim","_killer","_victimPosition","_addDeathStat","_addKillStat","_normalkill","_killerRespectPoints","_fragAttributes","_player","_grpvictim","_grpkiller","_log","_lastVictims","_victimUID","_vehicleRole","_vehicle","_lastKillAt","_killStack","_distance","_distanceBonus","_flagNextToKiller","_homieBonus","_flagNextToVictim","_raidBonus","_overallRespectChange","_newKillerScore","_killMessage","_newKillerFrags","_newVictimDeaths","_killerHumanity","_victimHumanity"];
