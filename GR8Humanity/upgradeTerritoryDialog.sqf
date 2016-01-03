@@ -35,7 +35,7 @@ if(_currentLevel isEqualTo _territoryLevels)then
 }
 else
 {
-	_respectControl ctrlSetStructuredText parseText format ["<t size='1.4'>%1</t>",_territoryPrice];
+	_respectControl ctrlSetStructuredText parseText format ["<img image='\exile_assets\texture\ui\poptab_notification_ca.paa' size='1' shadow='true' /><t size='1.4'> %1</t>",_territoryPrice];
 	_radiusControl ctrlSetStructuredText parseText format ["<t size='1.4'>%1m</t>",_territoryRange];
 	_levelControl ctrlSetStructuredText parseText format ["<t size='1.4'>%1/%2</t>",_currentLevel + 1,_territoryLevels];
 	if(ExileClientPlayerMoney < _territoryPrice)then
