@@ -1,4 +1,4 @@
-Humanity System By GR8 v1.2
+Humanity System By GR8 v1.3
 =============
 
 Dayz Style Humanity System is coming to ExileMod ! This script was made to replace respect with Humanity based gameplay. Humanity is an in-game statistic that determines whether a player is a survivor, a bandit, or a hero, as well as being a general indicator of how well a player interacts with others. A player starts off with a humanity of 2500. A humanity of at least 5000 will give a player the hero status. Conversely, a humanity of 0 or below will give a player the bandit status. A player will gain humanity upon killing bandits, and will lose humanity by injuring or killing survivors or heroes.

@@ -11,7 +11,7 @@
   /*
 
 Modified By GR8
-GR8's Humanity System v1.2
+GR8's Humanity System v1.3
 
 */
 private["_sessionID","_parameters","_victimNetID","_player","_victim","_humanity","_newHumanity"];

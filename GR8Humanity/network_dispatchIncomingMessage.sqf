@@ -11,7 +11,7 @@
  /*
 
 Modified By GR8
-GR8's Humanity System v1.2
+GR8's Humanity System v1.3
 
 */
 private["_payload","_sessionId","_messageName","_messageParameters","_playerBySessionId","_sessionID","_ExileSessionID","_allowedParameters","_moduleName","_functionName","_functionCode"];
