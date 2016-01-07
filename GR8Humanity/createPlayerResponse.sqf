@@ -11,7 +11,7 @@
  /*
 
 Modified By GR8
-GR8's Humanity System v1.3
+GR8's Humanity System v1.4
 
 */
 private["_player","_chuteNetID","_spawnType","_chute","_corpseGroup"];

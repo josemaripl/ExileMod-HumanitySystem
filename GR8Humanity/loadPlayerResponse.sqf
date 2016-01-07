@@ -11,7 +11,7 @@
  /*
 
 Modified By GR8
-GR8's Humanity System v1.3
+GR8's Humanity System v1.4
 
 */
 private["_playerNetID","_moneyString","_scoreString","_humanityString","_kills","_deaths","_hunger","_thirst","_alcohol","_clanName","_player"];

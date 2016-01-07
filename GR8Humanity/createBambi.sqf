@@ -11,7 +11,7 @@
 /*
 
 Modified By GR8
-GR8's Humanity System v1.3
+GR8's Humanity System v1.4
 
 */
 private["_sessionID","_requestingPlayer","_spawnLocationMarkerName","_bambiPlayer","_accountData","_spawnAreaPosition","_spawnAreaRadius","_direction","_position","_clanID","_clanName","_devFriendlyMode","_devs","_parachuteNetID","_spawnType","_parachuteObject"];

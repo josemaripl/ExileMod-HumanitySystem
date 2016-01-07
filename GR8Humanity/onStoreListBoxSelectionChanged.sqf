@@ -11,7 +11,7 @@
   /*
 
 Modified By GR8
-GR8's Humanity System v1.3
+GR8's Humanity System v1.4
 
 */
 private["_listBox","_index","_dialog","_purchaseButton","_quantityDropdown","_inventoryLoadLabel","_inventoryLoadValue","_itemClassName","_inventoryDropdown","_selectedInventoryDropdownIndex",
