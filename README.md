@@ -163,6 +163,10 @@ SQL1_1 = UPDATE account SET humanity = humanity + ? WHERE uid = ?
 Number of Inputs = 2
 SQL1_INPUTS = 1,2 
 
+[setAccountMoneyAndHumanity]
+SQL1_1 = UPDATE account SET money = ?, humanity = ? WHERE uid = ?
+Number of Inputs = 3
+SQL1_INPUTS = 1,2,3 
 ```
 * Look for:
 ```
